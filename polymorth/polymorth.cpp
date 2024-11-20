@@ -8,7 +8,6 @@ public:
     virtual void speak() = 0;
 };
 
-// Dog class inheriting from Animal
 class Dog : public Animal {
 public:
     // Override the speak function for Dog
@@ -17,7 +16,6 @@ public:
     }
 };
 
-// Cat class inheriting from Animal
 class Cat : public Animal {
 public:
     // Override the speak function for Cat
@@ -34,6 +32,4 @@ int main() {
     // Call the speak method for both objects
     dog.speak();
     cat.speak();
-
-    return 0;
 }
